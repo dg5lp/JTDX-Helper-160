@@ -2,9 +2,9 @@
 Although the JTDX-160 not yet released, I prepared a new version running with both JTDX-159 and -160. My first tests showed some serious problems with JTDX-160, especially when logging QSOs. 
 All functions are similar to JTDX-Helper-159, but two new features were implemented:
 - Prompt-Call list:  Entering wanted stations into this list, the stations will be preferred. It is similar to the "Wanted Call" list, but it is reachable from the main session, even during running S/P operatio, thus there is no need to open the configuration. During attempting the QSO with the wanted station, all other stations are ignored (lock mechanism)
-- New Strategy "DX-Chasing": This strategy was implemented to call rare DX stations. The wanted DX station is to enter into the "Prompt Call" list. It works similar to "Only-Wanted" but it starts in split-mode. The user must search and set a free frequency manually. After reception of the first CQ or RR73/73 the Helper calls the wanted station contionusly and does not stops if the station answers to another station. During the QSO attempt all other stations are ignored. (lock mechanism)
+- New Strategy "DX-Chasing": This strategy was implemented to call rare DX stations. The wanted DX station is to enter into the "Prompt Call" list. It works similar to "Only-Wanted" but it starts in split-mode. The user must search and set a free frequency manually. After reception of the first CQ or RR73/73 the Helper calls the wanted station contionusly and does not stops if the station answers to another station. This is the so-called "Pitbull QSO". During the QSO attempt all other stations are ignored. (lock mechanism)
 - The "lock" is released if the stations disappers or a number of QSO attempts were failed. Pressing the "Clear Postpone" button also releases the lock.
-- Forced Call: Entering a "!" behind the callsing of the first entry into the "Prompt-Call" list, forces to start the lock mechanism immediatelly when entering it. Without "!" the lock is only applied on reception of the first CQ/73/RR73.
+
 
 # JTDX-Helper-159
 
