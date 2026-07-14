@@ -1,4 +1,4 @@
-I regret to inform you that I have had to discontinue further development of the FT8 Helper for JTDX. WSJT-X is constantly being updated, so the features have become fragmented, which would make supporting this tool very time-consuming. The main reason for creating JTDX-Helper was JTDX's superior decoding performance. In this regard, WSJTX has caught up significantly.
+I regret to inform you that I have had to discontinue further development of the FT8 Helper for JTDX. WSJT-X is constantly being updated, so the features have become fragmented, which would make supporting this tool very time-consuming. The main reason for creating JTDX-Helper was JTDX's superior decoding performance. In this regard, WSJTX has caught up significantly, so there is no longer any reason for me to use JTDX.
 
 # JTDX-Helper-160-4
 It works with JTDX-2.2.160-rc6-win64.exe.  The problems with the rc4 seems to be solved.
